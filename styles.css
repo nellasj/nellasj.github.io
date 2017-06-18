@@ -67,6 +67,16 @@ img.displayed2 {
 	height: 250px;
 }
 
+img.displayed3 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 2134px;
+	height: 1040px;
+}
+
 /* Links*/
 
 a:link, a:visited {
