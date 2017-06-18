@@ -36,7 +36,7 @@ h5 {
 	margin-bottom: 70px;
 }
 p {
-	text-align: justify;
+	text-align: left;
 	text-justify: inter-word;
 	color: #777;
 	font-size: 15px;
@@ -97,6 +97,19 @@ a:hover, a:active {
     background-color: #5EAE9E;
 }
 
+a.link{
+    color: white;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
 /*Job descriptions*/
 
 .banner-container {
@@ -124,6 +137,7 @@ a:hover, a:active {
 	text-align: justify;
 	text-justify: inter-word;
 	margin-bottom: 32px;
+	margin-top: 2px;
 }
 
 .middle-container {
@@ -136,6 +150,8 @@ a:hover, a:active {
 	text-align: justify;
 	text-justify: inter-word;
 	margin-bottom: 32px;
+	margin-top: 2px;
+	vertical-align: top;
 }
 
 .right-container {
@@ -148,12 +164,14 @@ a:hover, a:active {
 	text-align: justify;
 	text-justify: inter-word;
 	margin-bottom: 32px;
+	margin-top: 2px;
+	vertical-align: top;
 }
 
 .bottom-container {
 	background-color: #C0E0DA;
 	display: block;
-	font-size: 17px;
+	font-size: 19px;
 	color: white;
 	vertical-align: middle;
 	text-align: center;
